@@ -4,6 +4,7 @@ Create 'Case000 Mission Manager' and the following can be added into comments
 Comment #1:
 ### Daily Tasks
  - ORM Signed
+ - PEX
  - Crew Tasking
 
 # Mission Objectives:
@@ -52,20 +53,35 @@ or formated as table
 # Templates:
 These are basic templates that can be copied and pasted into a case to act as guidence for the assigned operator
 ## Case title Templates
-Case00X - HH# - TOM# - "why its interesting" "TTP#"
-Case00X - Alert - "why its interesting"
+Case00X - HH# - TOM# - "why its interesting" "TTP#" 
+Case00X - Alert - "why its interesting" 
 Case00X - Dashboard - "What was anomolous"
 
 ## Sitrep Template
+### Events Last 24 Hours
+**Reviewed:** 
+
+**RFIs**
+OUTSTANDING:
+
+FULFILLED:
+
+**Daily Findings:**
+
+### Events Next 24 Hours
 
 
 ## Investigation Template
+
+Ops guide- field mappings
+Appendix I-Hunt Process
+
 ## Host Investigation
-- [] PID Walk left of process creation  **Procedure H055 pg 105**(reference ops guide )
-- [ ] PID walk right of process creation **Procedure H056 pg 105**(reference ops guide )
+- [ ] PID Walk left of process creation  **Appendix H-Hunt Data Correlation**(reference ops guide )
+- [ ] PID walk right of process creation **Appendix H-Hunt Data Correlation**(reference ops guide )
 - [ ] Process/File hash **Procedure H010 pg 101**(reference ops guide )
 
 ## Network Investigation
-- [ ] Affected IP to all exteral URLs & IPs ( North South) **Procedure N055 pg 40**(reference ops guide )
-- [ ] Affected IP to all internal URLs and IPs ( East & West ) **Procedure N055 pg 40**(reference ops guide )
+- [ ] Affected IP to all exteral URLs & IPs ( North South) **Appendix H-Hunt Data Correlation**(reference ops guide )
+- [ ] Affected IP to all internal URLs and IPs ( East & West ) **Appendix H-Hunt Data Correlation**(reference ops guide )
 - [ ] Protocol baseline compare against **Procedure N005 pg 10**(reference ops guide )
